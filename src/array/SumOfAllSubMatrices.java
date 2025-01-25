@@ -19,6 +19,8 @@ public class SumOfAllSubMatrices {
         Number of submatrices with 3 elements = 0
         Number of submatrices with 4 elements = 1, so sum of such submatrix = 4
         Total Sum = 4+8+4 = 16
+        Solution:
+        contribution Technique
      */
     public static void main(String[] args) {
         List<List<Integer>> matrix = List.of(List.of(1,1),List.of(1,1));
