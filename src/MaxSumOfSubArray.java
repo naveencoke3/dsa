@@ -3,6 +3,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class MaxSumOfSubArray {
 
+    /**
+     *
+     * To find the max sum of subarray we need to find the max sum till that point.
+     */
     public Integer findMaxSumOfSubArray(List<Integer> list){
         int max = Integer.MIN_VALUE, currentMax = 0;
         for(int i=0;i<list.size();i++){
