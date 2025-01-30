@@ -1,4 +1,4 @@
-import recursion.PrintAllPermutation;
+package math;
 
 import java.util.ArrayList;
 import java.util.Collections;

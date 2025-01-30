@@ -1,3 +1,5 @@
+package math;
+
 import java.util.stream.IntStream;
 
 public class CheckPrimeNumber {
